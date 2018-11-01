@@ -1,2 +1,2 @@
-require('./bot');
+require('./exchanger');
 require('./web');
