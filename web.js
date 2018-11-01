@@ -5,8 +5,7 @@ const app = express();
 
 app.get('/', ( req, res ) => {
   res.json({
-    version: packageInfo.version,
-    alive: true });
+     });
 });
 
 const server = app.listen( process.env.PORT, () => {
