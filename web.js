@@ -5,7 +5,10 @@ const app = express();
 
 app.get('/', ( req, res ) => {
   res.json({
-     });
+    "id":635598975,
+    "is_bot":true,
+    "first_name":"Test Of Crypto Converter",
+    "username":"cryptoworkertestbot"});
 });
 
 const server = app.listen( process.env.PORT, () => {
